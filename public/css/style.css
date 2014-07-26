@@ -17,10 +17,10 @@
   }
 }
 
-.sidebar .sidebar-sticky .sidebar-about .icon-social {
+.sidebar .sidebar-sticky .icon-social {
   padding-right: 5px;
 }
-.sidebar .sidebar-sticky .sidebar-about .icon-social:hover {
+.sidebar .sidebar-sticky .icon-social:hover {
   text-decoration: none;
   color: #ddd;
 }
