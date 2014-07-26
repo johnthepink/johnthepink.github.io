@@ -1,6 +1,7 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
+      <img src="/public/img/john@2x.png" />
       <h1>{{ site.title }}</h1>
       <p class="lead">{{ site.description }}</p>
     </div>
@@ -26,11 +27,11 @@
         {% endif %}
       {% endfor %}
 
-      <li class="sidebar-nav-item"><a href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a></li>
-      <li class="sidebar-nav-item"><a href="{{ site.github.repo }}">GitHub project</a></li>
-      <li class="sidebar-nav-item">Currently v{{ site.version }}</li>
     </ul>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    <a class="icon-social icon-twitter-circle" target="_blank" href="http://twitter.com/johnthepink"></a>
+    <a class="icon-social icon-insta-circle" target="_blank" href="http://instagram.com/johnthepink"></a>
+    <a class="icon-social icon-github" target="_blank" href="http://github.com/johnthepink"></a>
+
   </div>
 </div>
