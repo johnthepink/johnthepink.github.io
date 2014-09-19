@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-Hey! I'm John. I live in [Greenville, SC](http://www.lifeingreenville.com/). It's pretty. I have a wife, [Lauren](http://instagram.com/p/dm7aH2DGSA/), and a cat, [Wendy](http://instagram.com/p/QThppFjGWd/). We like going to [baseball games](http://instagram.com/p/pC3ZHRjGUR/), a [lot](http://instagram.com/p/nTWsfYjGYh/).
+Hey! I'm John. I live in [Greenville, SC](http://www.lifeingreenville.com/). It's pretty. I have a wife, [Lauren](http://instagram.com/p/dm7aH2DGSA/), and a cat, [Wendy](http://instagram.com/p/QThppFjGWd/). We like going to [baseball games](http://instagram.com/p/pC3ZHRjGUR/), a [lot](http://instagram.com/p/nTWsfYjGYh/). I also met [this guy](http://instagram.com/p/qXuii-jGbg/). It was weird.
 
 I attended [Furman University](http://furman.edu). It is also pretty. I've been a freelance web developer since 2009. I like to work with [Ruby on Rails](http://rubyonrails.org/). I was part of the startup Vybe, a music aggregation iOS app which has gone the way of so many startups.
 
