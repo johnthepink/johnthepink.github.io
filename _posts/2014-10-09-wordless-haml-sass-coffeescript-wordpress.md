@@ -1,5 +1,5 @@
 ---
-title: Wordless HAML SASS and Coffeescript in your Wordpress
+title: Wordless, HAML, SASS, and Coffeescript in your Wordpress
 layout: post
 categories: []
 tags: []
