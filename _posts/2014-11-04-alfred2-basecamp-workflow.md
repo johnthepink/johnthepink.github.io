@@ -9,6 +9,8 @@ tags: []
 
 Today I am open sourcing version 1.0.0 of my [Alfred 2 Basecamp Workflow](http://www.packal.org/workflow/basecamp). It started as a fork of the [Alfred 2 Ruby Template](https://github.com/zhaocai/alfred2-ruby-template), thanks guys. You can fork the repo [here](https://github.com/johnthepink/alfred2-basecamp).
 
+![Alfred 2 Screenshot](/public/img/alfred2-screenshot.png)
+
 After downloading, open the file to install, then:
 
 1. Right click on the “bc” Script Filter and click “Configure”.
