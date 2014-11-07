@@ -1,5 +1,5 @@
 ---
-title: First Friday Jams: 2007
+title: First Friday Jams - 2007
 layout: post
 categories: []
 tags: []
