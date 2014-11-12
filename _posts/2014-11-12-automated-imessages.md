@@ -15,7 +15,7 @@ I put the `delay 1` in there to prevent the iMessages from getting throttled and
 
 ## Usage
 
-1. Clone the repo and open `iMessage.scpt` in Script Editor.
+1. Clone the [repo](https://github.com/johnthepink/imessage-spam) and open `iMessage.scpt` in Script Editor.
 2. Change `VICTIM` to the phone number of the person who is about to be mad.
 3. Change `MSG` to the message you want to send that person.
 4. Change `APPLE_ID` to the email (including the 'E:') of the Apple ID you want to send from.
@@ -23,4 +23,4 @@ I put the `delay 1` in there to prevent the iMessages from getting throttled and
 
 With great power comes great responsiblity. Now that you hold the key, don't make anyone mad.
 
-With that said, here is the [repo](https://github.com/johnthepink/imessage-spam).
+With that said, have fun.
