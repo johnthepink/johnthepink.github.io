@@ -5,6 +5,7 @@ categories: []
 tags: []
 ---
 
+![Alfred 2 Base CRM Workflow](/public/img/alfred2-basecrm.png)
 
 After posting [my Basecamp Alfred workflow](/2014/11/04/alfred2-basecamp-workflow/) a couple weeks ago, someone contacted me about making one for [Base CRM](https://getbase.com/). I was not familiar with Base, but I was provided a trial account and did some research.
 
