@@ -5,7 +5,7 @@ title: Contact
 
 Have a question or a comment? I would love to talk to you. Fill out this form and I will get back with you as soon as a I can.
 
-<form id="contact-form" action="//forms.brace.io/john.pinkerton@me.com" method="post">
+<form id="contact-form" action="//formspree.io/john.pinkerton@me.com" method="post">
   <div class="form-control">
     <input type="text" name="name" placeholder="Name">
   </div>
