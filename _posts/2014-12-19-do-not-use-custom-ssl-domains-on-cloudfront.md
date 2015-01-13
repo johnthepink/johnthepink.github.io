@@ -14,3 +14,9 @@ Cloudfront supplies you with a subdomain -- somerandomstring.cloudfront.net -- a
 >  "...we charge a fixed monthly fee of $600 for each custom SSL certificate you associate with your CloudFront distributions..." <br> <div style="text-align:right;">- [Amazon](http://aws.amazon.com/cloudfront/custom-ssl-domains/)</div>
 
 And that was the end of that.
+
+## Edit - 1.13.2015
+
+[Robert](https://disqus.com/by/fnordfish/) pointed out in the comments that there is another option for using custom domains with SSL on Cloudfront using [SNI](http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/SecureConnections.html#cnames-https-sni). This is much more affordable, since there is no extra cost. You just pay normal Cloudfront rates for HTTPS requests. However, the caveat is that some older browsers don't support SNI.
+
+In the case of the project I was working on, the team didn't think it was wise to drop support for those older browsers. So, we just stuck with the standard Cloudfront domains. SNI is a great option if you are targeting modern browsers.
