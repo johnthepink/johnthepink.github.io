@@ -15,7 +15,7 @@ Cloudfront supplies you with a subdomain -- somerandomstring.cloudfront.net -- a
 
 And that was the end of that.
 
-## Edit - 1.13.2015
+### Edit - 1.13.2015
 
 [Robert](https://disqus.com/by/fnordfish/) pointed out in the comments that there is another option for using custom domains with SSL on Cloudfront using [SNI](http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/SecureConnections.html#cnames-https-sni). This is much more affordable, since there is no extra cost. You just pay normal Cloudfront rates for HTTPS requests. However, the caveat is that some older browsers don't support SNI.
 
