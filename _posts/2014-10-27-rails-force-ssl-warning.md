@@ -15,7 +15,7 @@ end
 
 ## Warning
 
-It is important, however, to understand exactly what this does. It does **not** just redirect all your requests to HTTPS.  It also makes use of the [HTTP Strict Transport Secruity](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) policy (HSTS). This means your server will respond to every request with an included `Strict-Transport-Security max-age=31536000` header. Browsers read this as: 
+It is important, however, to understand exactly what this does. It does **not** just redirect all your requests to HTTPS.  It also makes use of the [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) policy (HSTS). This means your server will respond to every request with an included `Strict-Transport-Security max-age=31536000` header. Browsers read this as: 
 
 > *Only use HTTPS for the next 31536000 seconds (1 year).*
 
