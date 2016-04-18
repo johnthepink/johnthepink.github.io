@@ -9,7 +9,7 @@ Well... it was an afternoon recently. But, you get the idea.
 
 ![](/public/img/bitminter.png)
 
-I have built apps using Objective C, and I have been building Cordova-based app using React and Meteor. So, I have at least an idea of what's going on in both situations. I have always dreaded jumping in to Objective C, and I have always been let down by the _feeling_ of a Web View app. Which is why React Native has been on my radar for a bit.
+I have built apps using Objective C, and I have been building a Cordova-based app using React and Meteor. So, I have at least an idea of what's going on in both situations. I have always dreaded jumping in to Objective C, and I have always been let down by the _feeling_ of a Web View app. Which is why React Native has been on my radar for a bit.
 
 ## React Native promises a lot
 
