@@ -46,7 +46,7 @@ class BitminterNative extends Component {
 }
 ```
 
-React's lifecyle functions (componentDidMount) allowed me to easily initate the request to the API.
+React's lifecycle functions (componentDidMount) allowed me to easily initiate the request to the API.
 
 ```javascript
 componentDidMount() {
@@ -114,7 +114,7 @@ render() {
 
 React Native has a bunch of mappings to native functionality out of the box (camera, photos, storage, etc). There is also a really great ecosystem of [React Native packages](https://js.coach/react-native).
 
-I wanted to be able to store the Bitminter API locally so you don't have to put it in every time (very tedius). React Native handles this out of the box with `AsyncStorage`. This lets you read and write to native storage writing only javascript. I just defined methods that attempted to load the key from storage. If it does load, it updates the React state. If it doesn't load, it presents an input which takes the key and then writes it to storage on submit.
+I wanted to be able to store the Bitminter API locally so you don't have to put it in every time (very tedious). React Native handles this out of the box with `AsyncStorage`. This lets you read and write to native storage writing only javascript. I just defined methods that attempted to load the key from storage. If it does load, it updates the React state. If it doesn't load, it presents an input which takes the key and then writes it to storage on submit.
 
 ```javascript
 async loadFromStorage() {
