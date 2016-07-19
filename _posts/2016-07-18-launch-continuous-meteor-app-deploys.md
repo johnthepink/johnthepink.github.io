@@ -14,7 +14,7 @@ What if I told you that you could build, deploy, and distribute an iOS app built
 ```
 launch build myapp.com
 launch galaxy myapp.com
-launch testflight myapp.com
+launch testflight
 ```
 
 ![](http://i.giphy.com/8E1uPDT9gfhJK.gif)
