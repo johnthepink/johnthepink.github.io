@@ -5,6 +5,8 @@ categories: []
 tags: []
 ---
 
+_Update 7/21/2016: I have changed the links for the sites out from Galaxy to Heroku. All the Galaxy information still applies, just using Heroku since it's free._
+
 Last week, I gave a talk at [Crater Remote Conference](http://conf.crater.io/) about how we build, deploy, and distribute [Meteor](https://meteor.com) Cordova apps automatically. The video isn't available yet, but the slides are available [here](https://launch-presentation.surge.sh). And so you don't have to flip through all that, here is the gist of the presentation.
 
 ## tl;dr
@@ -69,7 +71,7 @@ launch hockey
 - [Source Code](https://github.com/NewSpring/launch-basic-example)
 - [Travis Config](https://github.com/NewSpring/launch-basic-example/blob/master/.travis.yml)
 - [Travis Build](https://travis-ci.org/NewSpring/launch-basic-example/)
-- [Live Site on Galaxy](https://launch-basic-example.meteorapp.com/)
+- [Live Site on Heroku](https://launch-basic-example.herokuapp.com/)
 - [Hockey Download](https://rink.hockeyapp.net/apps/9c21ad20059c4486baf98fb9ef472a9c)
 
 #### Launch Todos Example
@@ -87,7 +89,7 @@ launch playstore
 - [Source Code](https://github.com/NewSpring/launch-todos-example)
 - [Travis Config](https://github.com/NewSpring/launch-todos-example/blob/master/.travis.yml)
 - [Travis Build](https://travis-ci.org/NewSpring/launch-todos-example/)
-- [Live Site on Galaxy](https://launch-todos-example.meteorapp.com/)
+- [Live Site on Heroku](https://launch-todos-example.herokuapp.com/)
 - [Android Hockey Download](https://rink.hockeyapp.net/apps/a6221f3834f149599f8da90bd23fd147)
 - [iOS Hockey Download](https://rink.hockeyapp.net/manage/apps/351335)
 
