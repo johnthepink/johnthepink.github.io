@@ -1,6 +1,10 @@
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 highlighter:      pygments
+
+gems:
+  - jekyll-paginate
+  - jekyll-feed
 
 # Permalinks
 permalink:        pretty
@@ -14,6 +18,9 @@ url:              http://johnpinkerton.me
 author:
   name:           'John Pinkerton'
   url:            https://twitter.com/johnthepink
+
+feed:
+  path: atom.xml
 
 paginate:         5
 
