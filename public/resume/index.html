@@ -1,0 +1,491 @@
+<!doctype html>
+<html>
+        <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+
+        <title>John Pinkerton</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+
+        <style type="text/css">
+        @import url(
+        https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+        background: #fff;
+        font-family: Lato, sans-serif;
+        margin: 0 0 80px;
+}
+a {
+        color: #2ecc71;
+}
+a:focus,
+a:hover {
+        color: #f1c40f;
+        text-decoration: none;
+}
+p {
+        line-height: 1.5;
+        margin: 0;
+}
+p + p {
+        margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+        margin-top: 0
+}
+section {
+        margin-top: 30px;
+}
+li {
+        line-height: 1.8;
+        list-style: none;
+}
+li:before {
+        content: "\f052";
+        float: left;
+        font: 13px Octicons;
+        margin-top: 6px;
+        margin-left: -20px;
+        opacity: .1;
+        position: absolute;
+}
+blockquote {
+        border-left: 5px solid #e7e9ec;
+        font-size: 14px;
+}
+em {
+        color: #95a5a6;
+        font-weight: normal;
+        font-style: normal;
+}
+h4 span:first-child {
+        color: #000;
+        font-weight: bold;
+}
+.container {
+        max-width: 750px;
+        padding: 0 30px;
+}
+.col-sm-6 {
+        margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+        margin-top: 12px;
+}
+.col-sm-12 + .col-sm-12 {
+        margin-top: 30px;
+}
+#header {
+        background: #f4f6f6;
+        padding: 50px 0;
+        margin-bottom: 30px;
+}
+#header h2 {
+        color: #95a5a6;
+        font-size: 24px;
+}
+#content h3 {
+        color: #f1c40f;
+        font-size: 26px;
+        margin-top: -4px;
+}
+#content aside {
+        text-align: right;
+        padding-right: 30px;
+}
+#profiles .network {
+        text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+        font-weight: bold;
+        margin-bottom: 8px;
+}
+#education .area {
+        font-weight: bold;
+}
+#education .area:before {
+        content: "\f0d7";
+        font: 16px Octicons;
+        margin-right: 6px;
+}
+#education .studyType {
+        margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+        margin-top: 8px;
+}
+.summary {
+  padding-bottom: 10px;
+}
+#publications .website a:before {
+        content: attr(href);
+}
+
+@media (min-width: 480px) {
+        .strike-through {
+                border-top: 1px solid #f4f6f6;
+                height: 20px;
+                margin-top: 12px;
+                margin-bottom: -2px;
+                position: relative;
+        }
+        .strike-through span,
+        .strike-through a {
+                background: #fff;
+                position: absolute;
+        }
+        .strike-through span:first-child {
+                padding-right: 20px;
+                margin-top: -12px;
+        }
+        .strike-through span + span {
+                font-size: 14px;
+                margin-top: -10px;
+                padding-left: 20px;
+                right: 0;
+        }
+}
+@media (max-width: 768px) {
+        .col-sm-6:last-child {
+                margin-bottom: 0px;
+        }
+        #content aside {
+                margin-bottom: 20px;
+                padding-right: 0;
+                text-align: left;
+        }
+        #publications .website a:before {
+                content: "View publication";
+        }
+}
+@media (max-width: 480px) {
+        h1 {
+                font-size: 26px;
+        }
+        .date {
+                font-size: 14px;
+                margin-bottom: 5px;
+        }
+        .strike-through span:first-child {
+                margin-bottom: 7px;
+        }
+        .strike-through span {
+                display: block;
+        }
+        #header {
+                margin-bottom: 10px;
+                padding: 40px 0;
+        }
+        #actions {
+                display: none;
+        }
+
+}
+
+        </style>
+
+        </head>
+        <body>
+
+        <header id="header">
+                <div class="container">
+                        <div class="row">
+                                <div class="col-sm-9 col-sm-push-3">
+                                        <h1>
+                                                John Pinkerton
+                                        </h1>
+                                        <h2>
+                                                Full Stack Engineer
+                                        </h2>
+                                </div>
+                        </div>
+                </div>
+        </header>
+        <div id="content" class="container">
+
+        <section id="contact" class="row">
+                <aside class="col-sm-3">
+                        <h3>Contact</h3>
+                </aside>
+                <div class="col-sm-9">
+                        <div class="row">
+                        <div class="col-sm-6">
+                                <strong>Email</strong>
+                                <div class="email"><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="bed4d1d6d090ced7d0d5dbcccad1d0fed3db90ddd1d3">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */</script></div>
+                        </div>
+                        <div class="col-sm-6">
+                                <strong>Phone</strong>
+                                <div class="phone">(864) 430-0856</div>
+                        </div>
+                        <div class="col-sm-6">
+                                <strong>Website</strong>
+                                <div class="website">
+                                        <a href="https://johnpinkerton.me">https://johnpinkerton.me</a>
+                                </div>
+                        </div>
+                        <div class="col-sm-6">
+                                <strong>Github</strong>
+                                <div class="website">
+                                        <a href="https://github.com/johnthepink">johnthepink</a>
+                                </div>
+                        </div>
+                        </div>
+                </div>
+        </section>
+        <section id="about" class="row">
+                <aside class="col-sm-3">
+                        <h3>About</h3>
+                </aside>
+                <div class="col-sm-9">
+                        <p>Hey! I am a Full Stack Engineer living in Greenville, SC. Some technologies I have worked with include React, GraphQL, Docker, Ruby on Rails, NodeJS, and Meteor. At the end of the day, I just want a good problem to solve.</p>
+                </div>
+        </section>
+        <section id="work" class="row">
+                <aside class="col-sm-3">
+                        <h3>Work</h3>
+                </aside>
+                <div class="col-sm-9">
+                        <div class="row">
+                        <div class="col-sm-12">
+                                <h4 class="strike-through">
+                                        <span>Wise Technologies</span>
+                                        <span class="date">
+                                                January 2019 - Present
+                                        </span>
+                                </h4>
+                                <div class="summary">
+                                        <p>Wise Technologies is an engineering consultancy based in Chicago, IL, mainly focused on building a payment processing platform for non-profits.</p>
+                                </div>
+                                <div class="position">
+                                  Director of Engineering
+                                </div>
+                                <ul class="highlights">
+                                        <li class="bullet">Managed team of 6 engineers</li>
+                                        <li class="bullet">Led large initiative to remove obscure languages in favor of Typescript</li>
+                                        <li class="bullet">Scoped and architected engineering work</li>
+                                        <li class="bullet">Identified and oversaw significant performance enhancements</li>
+                                        <li class="bullet">Scaled to $100 million yearly volume</li>
+                                </ul>
+                                <br />
+                                <div class="position">
+                                  Senior Software Engineer
+                                </div>
+                                <ul class="highlights">
+                                        <li class="bullet">Helped build iOS, Android, and Web applications using React Native Web and ReasonML</li>
+                                        <li class="bullet">Automated infrastructure using Terraform</li>
+                                        <li class="bullet">Setup CI/CD service using Semaphore which automates the testing, building, and deployment of native and web applications</li>
+                                        <li class="bullet">Helped build GraphQL server in a microservices architecture using Node, Typescript, and Serverless</li>
+                                        <li class="bullet">Forked, revived, and added features to a React Native library for allowing Apple Pay payments</li>
+                                </ul>
+                        </div>
+                        <div class="col-sm-12">
+                                <h4 class="strike-through">
+                                        <span>Spectrio / 10 Foot Wave</span>
+                                        <span class="date">
+                                                March 2017 - January 2019
+                                        </span>
+                                </h4>
+                                <div class="summary">
+                                        <p>Spectrio is a digital signage provider with nearly 20,000 connected devices.</p>
+                                </div>
+                                <div class="position">
+                                  Lead Software Engineer
+                                </div>
+                                <ul class="highlights">
+                                        <li class="bullet">Coordinated efforts between distributed teams</li>
+                                        <li class="bullet">Led project to convert platform from Flash to HTML across company</li>
+                                        <li class="bullet">Developed tools for other developers to build on the new HTML platform</li>
+                                        <li class="bullet">Dockerized services</li>
+                                        <li class="bullet">Moved to ECS</li>
+                                        <li class="bullet">Established automated testing culture</li>
+                                        <li class="bullet">Refactored data aggregation server to be more efficient, resilient, and support more types of data</li>
+                                        <li class="bullet">Rooted Android device developmenmt</li>
+                                        <li class="bullet">Shipped many major features to CMS (advanced scheduling, media processing, etc)</li>
+                                </ul>
+                        </div>
+                        <div class="col-sm-12">
+                                <h4 class="strike-through">
+                                        <span>Grace Hill</span>
+                                        <span class="date">
+                                                December 2016 - March 2017
+                                        </span>
+                                </h4>
+                                <div class="summary">
+                                        <p>Grace Hill is an online training platform with 400,000+ active users.</p>
+                                </div>
+                                <div class="position">
+                                  Senior Software Engineer
+                                </div>
+                                <ul class="highlights">
+                                        <li class="bullet">Dockerized the application</li>
+                                        <li class="bullet">AWS SQS based background job processing</li>
+                                        <li class="bullet">Improved complex importing/exporting of data for administrators</li>
+                                        <li class="bullet">Improved release process</li>
+                                        <li class="bullet">Scheduled email automation based on user progress</li>
+                                        <li class="bullet">Enhanced data manager for easy importing/exporting</li>
+                                        <li class="bullet">Improved course completion logic</li>
+                                        <li class="bullet">Integration with third party API for course presentation</li>
+                                </ul>
+                        </div>
+                        <div class="col-sm-12">
+                                <h4 class="strike-through">
+                                        <span>NewSpring</span>
+                                        <span class="date">
+                                                March 2015 — November 2016
+                                        </span>
+                                </h4>
+                                <div class="summary">
+                                        <p>NewSpring is a large organization with 19 locations.</p>
+                                </div>
+                                <div class="position">
+                                  Senior Software Engineer
+                                </div>
+                                <ul class="highlights">
+                                        <li class="bullet">React/Meteor framework dployed to iOS, Android, and the Web</li>
+                                        <li class="bullet">GraphQL server providing single point of access to 3 different databases (MySQL, SQL Server, Mongo) and external services</li>
+                                        <li class="bullet">Migrated from Rackspace to AWS</li>
+                                        <li class="bullet">meteor-launch tool which packages apps for iOS, Android, Chrome, Windows, MacOS, Linus, and Fire OS</li>
+                                        <li class="bullet"><a href="https://github.com/NewSpring/holtzmann">https://github.com/NewSpring/holtzmann</a></li>
+                                        <li class="bullet"><a href="https://github.com/NewSpring/heighliner">https://github.com/NewSpring/heighliner</a></li>
+                                        <li class="bullet"><a href="https://github.com/NewSpring/ops-beegeeswithmachineguns">https://github.com/NewSpring/ops-beegeeswithmachineguns</a></li>
+                                </ul>
+                        </div>
+                        <div class="col-sm-12">
+                                <h4 class="strike-through">
+                                        <span>Bethel Music/WorshipU</span>
+                                        <span class="date">
+                                                November 2012 — March 2015
+                                        </span>
+                                </h4>
+                                <div class="summary">
+                                        <p>WorshipU is an online video-based worship/music school with 10,000 monthly students.</p>
+                                </div>
+                                <div class="position">
+                                  Lead Developer
+                                </div>
+                                <ul class="highlights">
+                                        <li class="bullet">Responsive large-scale Rails application</li>
+                                        <li class="bullet">Custom content management sytem</li>
+                                        <li class="bullet">Custom video hosting, transcoding, and streaming built on Amazon Web Services</li>
+                                        <li class="bullet">Duscussion boards, live streams, etc.</li>
+                                        <li class="bullet">API for native apps</li>
+                                </ul>
+                        </div>
+                        <div class="col-sm-12">
+                                <h4 class="strike-through">
+                                        <span>Vybe iOS App</span>
+                                        <span class="date">
+                                                November 2011 — November 2012
+                                        </span>
+                                </h4>
+                                <div class="summary">
+                                        <p>Vybe is an iPhone application which aggregates content from bands and delivers it to music fans in a centralized place.</p>
+                                </div>
+                                <div class="position">
+                                  Lead Developer
+                                </div>
+                                <ul class="highlights">
+                                        <li class="bullet">Rails API</li>
+                                        <li class="bullet">Location-based concert search</li>
+                                        <li class="bullet">Aggregation of data from several APIs (iTunes, Jambase, YouTube, Bands In Town)</li>
+                                        <li class="bullet">Push notification alerts</li>
+                                </ul>
+                        </div>
+                        <div class="col-sm-12">
+                                <h4 class="strike-through">
+                                        <span>Notable Open Source Contributions</span>
+                                </h4>
+                                <div class="summary">
+                                        <p>I love open source projects. Here are some of my own, as well as some that I have helped with.</p>
+                                </div>
+                                <div class="position">
+
+                                </div>
+                                <ul class="highlights">
+                                        <li class="bullet"><a href="https://github.com/johnthepink/react-native-payments">https://github.com/johnthepink/react-native-payments</a></li>
+                                        <li class="bullet"><a href="https://github.com/apollostack/apollo-client">https://github.com/apollostack/apollo-client</a></li>
+                                        <li class="bullet"><a href="https://github.com/sysgears/apollo-universal-starter-kit">https://github.com/sysgears/apollo-universal-starter-kit</a></li>
+                                        <li class="bullet"><a href="https://github.com/johnthepink/meteor-launch">https://github.com/johnthepink/meteor-launch</a></li>
+                                        <li class="bullet"><a href="https://github.com/NewSpring/Holtzman">https://github.com/NewSpring/Holtzman</a></li>
+                                </ul>
+                        </div>
+                </div>
+        </section>
+
+        <section id="conference-talks" class="row">
+                <aside class="col-sm-3">
+                        <h3>Talks</h3>
+                </aside>
+                <div class="col-sm-9">
+                        <div class="row">
+                        <div class="col-sm-12">
+                                <h4 class="strike-through">
+                                        <span>CITN Conference</span>
+                                        <span class="date">
+                                                October 2016
+                                        </span>
+                                </h4>
+                                <div class="position">
+
+                                </div>
+                                <div class="summary">
+                                  <p>I gave a talk at the 2016 CITN conference about React, the Javascript library by Facebook. It covered what it is, why you would want to use it, and a hands on section where we built a sample application.</p>
+                                </div>
+                        </div>
+
+                        <div class="col-sm-12">
+                                <h4 class="strike-through">
+                                        <span>Crater Remote Conference</span>
+                                        <span class="date">
+                                                July 2016
+                                        </span>
+                                </h4>
+                                <div class="position">
+
+                                </div>
+                                <div class="summary">
+                                  <p>At Crater Conf, I presented the <a href="https://github.com/NewSpring/meteor-launch">Launch</a> tool that I built for automating the building and deployment of Meteor Cordova applications to the iOS App Store, Google Play, Hockey, and more.</p>
+                                </div>
+                        </div>
+                        </div>
+                </div>
+        </section>
+
+        <section id="education" class="row">
+                <aside class="col-sm-3">
+                        <h3>Education</h3>
+                </aside>
+                <div class="col-sm-9">
+                        <div class="row">
+                        <div class="col-sm-12">
+                                <h4 class="strike-through">
+                                        <span>Furman University</span>
+                                        <span class="date">
+                                                2007 — 2011
+                                        </span>
+                                </h4>
+                                <div class="area">
+                                        Information Technology
+                                </div>
+                                <div class="studyType">
+                                        Bachelor of Science
+                                </div>
+                        </div>
+                        </div>
+                </div>
+        </section>
+
+        </div>
+
+        </body>
+</html>
