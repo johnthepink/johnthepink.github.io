@@ -47,7 +47,7 @@ export const reducer = (state: State, action: Action): State => {
         lines: [
           ...state.lines,
           "",
-          "🥁🎸🎤",
+          "🥁 🎸 🎤",
           "check out some of these albums i made with my friends!",
           "",
           <>
