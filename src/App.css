@@ -16,3 +16,7 @@ a {
 a:hover {
   opacity: .8;
 }
+
+div.react-terminal-line {
+  white-space: initial;
+}
