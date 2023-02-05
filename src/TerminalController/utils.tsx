@@ -20,7 +20,7 @@ const Link = ({
 const commands = ["help", "about", "resume", "music", "clear"];
 
 export const reducer = (state: State, action: Action): State => {
-  switch (action.type.trim()) {
+  switch (action.type.trim().toLowerCase()) {
     case "":
       return { lines: [...state.lines, ""] };
     case "clear":
